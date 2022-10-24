@@ -1,5 +1,4 @@
 let inputCont = []
-
 let inputWord
 let randWord = document.getElementById("randWord")
 let pickedWord
