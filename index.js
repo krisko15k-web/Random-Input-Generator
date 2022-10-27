@@ -1,11 +1,11 @@
 let inputCont = []
-let inputWord
+let inputWord = document.getElementById("inputWord")
 let randWord = document.getElementById("randWord")
 let pickedWord
 
 function addInput() {
-    inputWord = document.getElementById("inputWord").value
-    inputCont.push(inputWord)
+    inputCont.push(inputWord.value)
+    inputWord.value = ""
 }
 
 function randPick() {
