@@ -9,8 +9,6 @@ function addInput() {
 }
 
 function randPick() {
-    for (let i = 0; i < inputCont.length; i++) {
-        pickedWord = Math.floor(Math.random() * inputCont.length)
-        randWord.textContent = inputCont[pickedWord]
-    }
+    pickedWord = Math.floor(Math.random() * inputCont.length)
+    randWord.textContent = inputCont[pickedWord]
 }
