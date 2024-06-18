@@ -1,14 +1,16 @@
-let inputCont = []
-let inputWord = document.getElementById("inputWord")
-let randWord = document.getElementById("randWord")
-let pickedWord
+const inputWord = document.getElementById("inputWord");
+const randWord = document.getElementById("randWord");
+let inputCont = [];
+let pickedWord;
 
-function addInput() {
-    inputCont.push(inputWord.value)
-    inputWord.value = ""
-}
+const addInput = () => {
+  if (inputWord.value !== "") {
+    inputCont.push(inputWord.value);
+    inputWord.value = "";
+  }
+};
 
-function randPick() {
-    pickedWord = Math.floor(Math.random() * inputCont.length)
-    randWord.textContent = inputCont[pickedWord]
-}
+const randPick = () => {
+  pickedWord = Math.floor(Math.random() * inputCont.length);
+  randWord.textContent = inputCont[pickedWord];
+};

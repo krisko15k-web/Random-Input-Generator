@@ -1,36 +1,36 @@
 body {
-    margin: 10%;
-    background: #d28c00;
-    color: black;
-    font-family: Arial, sans-serif;
-    text-align: center;
+  margin: 10%;
+  background: #d28c00;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 input {
-    background: #d28c00;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 200px;
+  background: #d28c00;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 200px;
 }
 
 button {
-    background: black;
-    color: #d28c00;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    margin: 20px auto;
-    cursor: pointer;
+  background: black;
+  color: #d28c00;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 20px auto;
+  cursor: pointer;
 }
 
 div {
-    background: black;
-    color: #d28c00;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    margin: auto;
-    width: 150px;
+  background: black;
+  color: #d28c00;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: auto;
+  width: 150px;
 }
