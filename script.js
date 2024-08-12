@@ -1,5 +1,5 @@
 const inputWord = document.getElementById("inputWord");
-const randWord = document.getElementById("randWord");
+const randWord = document.querySelector(".randWord");
 let inputCont = [];
 let pickedWord;
 
